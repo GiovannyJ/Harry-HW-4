@@ -1,0 +1,54 @@
+Label: root
+Prompt: Root Node
+Message: What Model is the Washing Machine?
+Label: 1
+Prompt: WM200
+Message: What is the problem?
+Label: 1-1
+Prompt: No Water.
+Message: Is the hose attached?
+Label: 1-1-1
+Prompt: Yes, but the hose is broken.
+Message: Purchase a new hose.
+Label: 1-1-2
+Prompt: No, didn’t know there was a hose.
+Message; Plug it in the back.
+Label: 1-1-3
+Prompt: Yes, but still no water.
+Message: Make sure the water valve is turned on.
+Label: 1-2
+Prompt: Water too hot.
+Message: Turn the temperature knob to warm.
+Label: 1-3
+Prompt: Water too cold.
+Message: Turn the temperature knob to warm.
+Label: 2
+Prompt: WM300
+Message: What is the problem?
+Label: 2-1
+Prompt: Machine won’t start..
+Message: Is the machine plugged in?
+Label: 2-1-1
+Prompt: Yes, but an error is displayed, “Fuser out.”
+Message: We’ll send someone over.
+Label: 2-1-2
+Prompt: I didn’t know there was a plug.
+Message: Try plugging it in the back.
+Label: 2-1-3
+Prompt: Yes, but still won’t turn on.
+Message: Call an Electrician.
+Label: 2-2
+Prompt: Machine ends too early.
+Message: Turn the timer knob.
+Label: 2-3:
+Prompt: Machine knobs are broken.
+Message: We’ll send someone over.
+Label: 3
+Prompt: WM400
+Message: What is the problem?
+Label: 3-1
+Prompt: My clothes are wet.
+Message: Great! Now purchase a dryer.
+Label 3-2
+Prompt: Lid won’t close.
+Message: Call a repair man to fix it.
